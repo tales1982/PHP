@@ -13,10 +13,10 @@
 </body>
 </html>
 <div>
-<h2>variáveis.</h2>
+<h2>Variáveis.</h2>
     <?php
   $n = 4;
-  $nome = "Tales !!";
+  $nome = "Tales lima!";
   echo $nome;
 ?>
 
