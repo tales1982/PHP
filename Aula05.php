@@ -17,7 +17,8 @@
     <?php
   $idade = 40;
   $nome = "Tales";
-  echo $nome." Tem ".$idade." anos de idade.";
+  echo $nome." Tem ".$idade." anos de idade.<br>";//posso usar com . pra concatenacao ou "" 
+  echo"$nome Tem $idade anos de vida"// seu colocar dentro de "" simple para fazer a concatenaçao e melhor
 ?>
 
 </div>
