@@ -12,7 +12,7 @@
 
 <body>
     <div>
-        <h2>Operadores Aritmeticos.</h2>
+        <h2>Operadores Aritmeticos!.</h2>
         <?php
         $n1 =3;
         $n2 =2;
