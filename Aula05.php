@@ -15,10 +15,32 @@
 <div>
     <h2>Concatenação</h2>
     <?php
-  $idade = 40;
-  $nome = "Tales";
-  echo $nome." Tem ".$idade." anos de idade.<br>";//posso usar com . pra concatenacao ou "" 
-  echo"$nome Tem $idade anos de vida"// seu colocar dentro de "" simple para fazer a concatenaçao e melhor
+    // exemplo 1- Utilização do ponto ( . )
+$nome = "Angelo";
+$sobrenome = "Ferreira";
+echo "Meu nome é ".$nome." ".$sobrenome. " e tenho 90 anos. <br>";
+
+//2ª Forma: Utilização do ponto com o sinal de igual ( .= )
+$nome = "Angelo";
+$sobrenome = "Ferreira";
+$idade = 90;
+$nCompleto = "Meu nome é ";
+$nCompleto .= "$nome ";
+$nCompleto .= "$sobrenome ";
+$nCompleto .= "e tenho $idade anos. <br>";
+echo $nCompleto;
+
+//3ª Forma: Utilização de chaves { }
+$nome = "Angelo";
+$sobrenome = "Ferreira";
+$idade = 90;
+echo "Meu nome é {$nome} {$sobrenome} e tenho {$idade} anos.<br>";
+
+//4ª Forma: Utilização apenas de aspas duplas ("")
+$nome = "Angelo";
+$sobrenome = "Ferreira";
+$idade = 90;
+echo "Meu nome é $nome $sobrenome e tenho $idade anos.";
 ?>
 
 </div>
