@@ -15,9 +15,9 @@
 <div>
 <h2>Variáveis.</h2>
     <?php
-  $n = 4;
-  $nome = "Tales lima!";
-  echo $nome;
+  $var = 4;
+  $var = "Tales lima!";
+  echo $var;
 ?>
 
 </div>
