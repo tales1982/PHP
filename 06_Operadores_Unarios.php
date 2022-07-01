@@ -18,7 +18,7 @@
         $tipo = $_GET["op"];
         echo "Os valores passados foram $n1 e $n2<br>";
         $r = ($tipo == "s") ? $n1 + $n2 : $n1 * $n2;
-        echo "O resultado sera $r"
+        echo "O resultado sera $r";
         ?>
     </div>
 
