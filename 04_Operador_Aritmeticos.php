@@ -14,13 +14,14 @@
     <div>
         <h2>Operadores Aritmeticos.</h2>
         <?php
+        /*
          $n1 = $_GET["a"];
          $n2 = $_GET["b"];
          echo "<h2>Valores recebido $n1 e $n2</h2>";
-        /*
+         */
         $n1 = 3;
         $n2 = 2;
-        */
+       
         $media = ($n1 + $n2) / 2;
         echo "A soma vale  ".($n1 + $n2)."<br>";
         echo "A Subtração vale  ".($n1 - $n2)."<br>";
