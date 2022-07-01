@@ -14,13 +14,13 @@
     <div>
         <h3>Operadores Relacionais</h3>
     <?php
-   $valor = 10;
+   $valor = 9;
    if($valor == 15){
     echo"O valor é 15";
    }elseif ($valor >=10){
         echo"O valor é maior ou igual 10";
     }else {
-        echo"O valor é menor que 15";
+        echo"O valor é menor que 10";
     }
     ?>
     </div>
