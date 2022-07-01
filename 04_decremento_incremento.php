@@ -11,7 +11,8 @@
 </head>
 
 <body>
-   <h2>Operadores de decremento e incremento</h2>
+    <div>
+        <h2>Operadores de decremento e incremento</h2>
     <?php
     $nun1 = 2;
     $num2 = 4;
@@ -20,6 +21,8 @@
     $resposta1 = ++ $num2 - $nun1;
     echo "$resposta1" 
     ?>
+    </div>
+   
 </body>
 
 </html>
