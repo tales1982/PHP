@@ -12,7 +12,7 @@
 
 <body>
     <div>
-        <h2>Operadores Aritmeticos!.</h2>
+        <h2>Operadores Aritmeticos.</h2>
         <?php
          $n1 = $_GET["a"];
          $n2 = $_GET["b"];
