@@ -12,14 +12,23 @@
 
 <body>
     <div>
-        <h2>Operadores de decremento e incremento</h2>
+        <h3>Operadores de decremento e incremento</h3>
     <?php
-    $nun1 = 2;
+    $num1 = 2;
     $num2 = 4;
     $num3 = 6;
     $num4 = 8;
-    $resposta1 = ++ $num2 - $nun1;
-    echo "$resposta1" 
+
+    $resposta1 = - $num1;//resposta1. Troca o sinal do operador 
+    echo "$resposta1<br>" ;
+
+    $resposta2 = ++$num2;//resposta2. acresenta 1 (++) 
+    echo "$resposta2<br>";
+
+    $resposta3 = --$num3;// resposta3. retira 1 (--)
+    echo "$resposta3<br>";
+
+
     ?>
     </div>
    
