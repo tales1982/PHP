@@ -16,7 +16,7 @@
     <?php
     $ano = $_GET["an"];
     $idade = 2022 - $ano;
-    echo"Quen naçeu em $ano tem idade de $idade<br>";
+    echo"Quen nasçeu em $ano tem idade de $idade<br>";
     $tipo = ($idade >=18 && $idade<65)?"Obrigatorio.":"Nao Obrigatorio.";
     echo "E dessa forma seu voto é, $tipo";
     ?>
